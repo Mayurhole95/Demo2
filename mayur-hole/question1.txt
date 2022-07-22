@@ -1,1 +1,14 @@
 Answer 1:
+
+Cherry-picking in Git stands for applying some commit from one branch into another branch. 
+In case you made a mistake and committed a change into the wrong branch, but do not want to merge the whole branch. 
+You can revert the commit and apply it on another branch.
+
+Suppose you are working with a team of developers on a medium to large-sized project. 
+Some changes proposed by another team member and you want to apply some of them to your main project, not all. 
+Since managing the changes between several Git branches can become a complex task, and you don't want to merge a whole branch into another branch. 
+You only need to pick one or two specific commits. 
+To pick some changes into your main project branch from other branches is called cherry-picking.
+
+Scenerio1: Accidently make a commit in a wrong branch.
+Scenario2: Make the changes proposed by another team member.
